@@ -27,3 +27,9 @@ smallHeading.classList.add('red');
 smallHeading.appendChild(smallText);
 document.body.replaceChild(smallHeading, bodyDiv);
 console.log(result.children);
+
+
+//  Мой код
+
+const newSmallHeading = document.createElement(`h6`);
+const newSmallHeadingText = document.createTextNode(`my new textklxfjklk`)

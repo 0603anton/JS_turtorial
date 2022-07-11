@@ -22,3 +22,18 @@ heading.classList.add('blue');
 result.insertBefore(heading, first);
 
 console.log(result.children);
+
+// Мой код
+
+const myTest = document.querySelector(`.myTest`);
+// myTest.classList.add(`blue`);
+const textMyTest = document.createTextNode(`TEST_TEST`);
+const firstElem = myTest.firstChild.nextSibling;
+console.log(firstElem);
+firstElem.classList.add(`blue`);
+
+let newDiv = document.createElement(`p`);
+newDiv.appendChild(textMyTest);
+
+
+myTest.insertBefore(newDiv, firstElem);
