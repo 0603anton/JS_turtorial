@@ -12,27 +12,30 @@
         text-transform: uppercase;
         font-size: 2rem;
       }
+      .btn {
+        background: #f15025;
+        color: white;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        border: none;
+        display: inline-block;
+        margin: 0.5rem;
+      }
       .blue {
         background: blue;
         color: white;
         text-transform: capitalize;
         letter-spacing: 10px;
       }
-      .btn {
-        background: #f15025;
-        color: white;
-        font-size: 1.2rem;
-        border: none;
-      }
     </style>
   </head>
   <body>
-    <h2>events in javascript</h2>
-    <button class="btn">click me</button>
+    <form action="" id="form">
+      <input type="text" id="name" />
+      <input type="password" id="password" />
+      <input type="submit" value="submit" />
+    </form>
     <!-- javascript -->
-    <!-- <p onclick="this.classList.add('red')">
-      the old style
-    </p> -->
     <script src="app.js"></script>
   </body>
 </html>

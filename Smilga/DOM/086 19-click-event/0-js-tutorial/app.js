@@ -2,9 +2,17 @@
 // addEventListener()
 // what event, what to do
 
-const btn = document.querySelector('.btn');
-const heading = document.querySelector('h2');
+// const btn = document.querySelector('.btn');
+// const heading = document.querySelector('h2');
 
-btn.addEventListener('click', function() {
-  heading.classList.add('red');
+// btn.addEventListener('click', function () {
+//   heading.classList.add('red');
+// });
+
+
+const btn = document.querySelector(`.btn`);
+const heading = document.querySelector(`h2`);
+
+btn.addEventListener(`click`, () => {
+  return heading.classList.add('red');
 });
